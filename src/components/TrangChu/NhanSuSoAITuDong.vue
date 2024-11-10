@@ -30,7 +30,7 @@
                 <div>
                   <div class="flex flex-wrap -mx-3">
                     <transition-group name="fade" tag="div" class="flex flex-wrap -mx-3">
-                      <div v-for="(template, index) in tabs[activeTab].content" :key="template.id" class="w-1/3 px-3 transition-all duration-300 ease-in-out">
+                      <div v-for="(template, index) in tabs[activeTab].content" :key="template.id" class="w-1/3 max-lg:w-1/2 max-md:w-full px-3 transition-all duration-300 ease-in-out">
                         <div class="h-full cursor-pointer transition-all duration-200 ease-in-out hover:scale-105">
                           <div class="flex flex-col break-words relative mb-6 rounded-2xl border border-solid bg-custom-gradient-6 flex-wrap">
                             <div class="min-h-40 flex-auto py-4 px-6 relative pt-6">

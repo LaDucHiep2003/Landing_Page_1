@@ -17,7 +17,7 @@
                     justify-center items-center border-2 border-color-4 bg-custom-gradient hover:bg-custom-gradient-2 cursor-pointer">Tạo thử miễn phí  </div>
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-2 gap-6 max-md:grid-cols-1 max-md:gap-2">
           <div class="relative delay-100 duration-500 ease-in-out ">
             <div class="text-center before:left-1/2 before:content-none before:bottom-3 before:h-10 before:absolute before:rounded-[10px]
                     before:bg-white before:translate-x-[-50%] before:w-[88%]">

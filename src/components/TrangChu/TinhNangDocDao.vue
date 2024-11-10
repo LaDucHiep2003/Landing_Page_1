@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col items-center mx-5 min-w-[680px] absolute rounded-3xl bg-custom-gradient-10 py-12 px-6 text-center">
+        <div class="flex flex-col items-center mx-5 min-w-[680px] max-md:min-w-[70%] absolute rounded-3xl bg-custom-gradient-10 py-12 px-6 text-center">
           <div class="text-xs font-semibold cursor-pointer py-3 px-4 inline-flex bg-white rounded-[32px] justify-center items-center border border-color-4 shadow-sd-4">
             <RouterLink to="/" class="color-text">
               Tính năng độc đáo
